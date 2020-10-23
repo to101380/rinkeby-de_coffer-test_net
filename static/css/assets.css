@@ -1,0 +1,61 @@
+*{
+	  font-family:微軟正黑體;
+	/*  border: solid 1px ;	*/  
+	} 
+
+p{
+	color: #6c83ab;
+	font-size: 12px;
+	font-weight: bold;
+}	
+
+a{
+	font-size: 13px;
+}
+
+.cos_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #6957f2!important;
+            }
+        }
+
+.view,body,html{
+	height:100%
+}
+
+.navbar{
+	background-color:rgba(105, 87, 242,0.9)
+}
+
+.page-footer,.top-nav-collapse{
+	background-color:#6957f2
+}
+
+@media only screen and (max-width:768px){
+	.navbar{background-color:#6957f2}
+}
